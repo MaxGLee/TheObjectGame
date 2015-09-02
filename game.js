@@ -2,10 +2,14 @@ var health = 100;
 
 function slap() {
     health -= 1;
-    alert(health);
+    update();
 };
 
-slap();
 
+
+function update() {
+    var healthStat = document.getElementById("healthStat")
+    healthStat.innerText = health;
+}
 
 
