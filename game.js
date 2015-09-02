@@ -28,3 +28,5 @@ function update() {
     playerName.innerText = name;
     playerHits.innerText = hits;
 };
+
+update();
