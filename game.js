@@ -2,6 +2,12 @@ var health = 100;
 var name = "Joe";
 var hits = 0;
 
+function reset() {
+    health = 100;
+    name = "Joe";
+    hits = 0;
+};
+
 function slap() {
     health -= 1;
     hits += 1;
